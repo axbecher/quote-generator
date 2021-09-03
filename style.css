@@ -88,6 +88,7 @@ button{
     outline:none;
     padding: 0.5rem 1.8rem;
     box-shadow: 0 0.3rem rgb(121,121,121,0.65);
+    margin: 0.3rem;
 }
 
 button:hover{
@@ -136,10 +137,20 @@ button:active{
 @media screen and (max-width: 1000px)
 {
     .quote-container{
-        margin:auto 10px;
+        margin:auto 20px;
+
     }
 
     .quote-text{
         font-size: 2.5rem;
     }
+
+    .button-container, .button-container2{
+        margin:auto;
+        top:25%;
+        left:50%;
+        display:inline-block;
+        
+    }
+
 }
