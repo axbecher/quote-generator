@@ -49,17 +49,14 @@ body{
 }
 
 .button-container{
-    margin-top: 15px;
-    display: flex;
-    justify-content: space-between;
+    margin:auto;
+    
+    display: inline-block;
+    position: sticky;
+    
 }
 
-.button-container2{
-    
-    
-    display: flex;
-    justify-content: space-around;
-}
+
 
 .facebook-button{
     margin-left: 1.5rem;
@@ -145,10 +142,9 @@ button:active{
         font-size: 2.5rem;
     }
 
-    .button-container, .button-container2{
+    .button-container{
         margin:auto;
-        top:25%;
-        left:50%;
+        margin-top:10px;
         display:inline-block;
         
     }
